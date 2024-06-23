@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar
+{
+    padding: 10px;
+    background-color: aquamarine;
+}
+body
+{
+    font-family: "Poppins", sans-serif;
+    /* padding-bottom: 1000px; */
+}
+.cont
+{
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+}
+.bookcont
+{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.bookcont button
+{
+    background-color: aquamarine;
+    border-style: none;
+    padding: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: black;
+    border-radius: 10px;
+    font-weight: bolder ;
+    margin-top: 15px;
+}
+.plus
+{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+.popup
+{
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    opacity: 0.5;
+    display: none;
+    transition: all 2s;
+}
+.addbookdet
+{
+    position: fixed;
+    left: 40%;
+    background-color:aquamarine;
+    padding: 30px;
+    border-radius: 30px;
+    display: none;
+    top: 20%;
+}
+.addbookdet button
+{
+    background-color: rgb(113, 232, 232);
+    border-style: none;
+    padding: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: black;
+    border-radius: 10px;
+    font-weight: bolder ;
+    margin-top: 15px;
+    
+}
+.details
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: large;
+}
+input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:aquamarine;
+    font-size: large;
+}
+input:focus{
+    outline: none;
+}
+
