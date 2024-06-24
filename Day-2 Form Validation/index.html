@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Day-2 Form Validation/form.css">
+    <script src="./Day-2 Form Validation/form.js" defer></script>
+</head>
+<body>
+    <div id="box">
+        <form id="form" action="https://www.google.com/">
+            <div class="input"> 
+                <label for="fname">Name </label>
+                <input type="text" placeholder="Enter Name" id="fname">
+                <p id="tickname"></p>
+            </div>
+            
+            <p id="errorname"></p>
+            <div class="input">
+                <label for="fnum">Phone Number </label>
+                <input type="text" placeholder="Enter Phone Number" id="fnum">
+                <p id="tickphone"></p>
+            </div>
+            
+            <p id="errorphone"></p>
+            <div class="input">
+                <label for="femail">Email Address</label>
+                <input type="email" placeholder="Enter Email ID" id="femail">
+                <p id="tickemail"></p>
+            </div>
+            
+            <p id="erroremail"></p>
+            <div class="input">
+                <label for="fmess">Message</label>
+                <textarea name="mess" id="fmess"></textarea>
+                <p id="tickmess"></p>
+            </div> 
+            
+            <p id="errormess"></p>
+            <div class="subbutt">
+                <button type="submit" id="subbut">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
